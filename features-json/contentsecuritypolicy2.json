@@ -2,7 +2,7 @@
   "title":"Content Security Policy Level 2",
   "description":"Mitigate cross-site scripting attacks by whitelisting allowed sources of script, style, and other resources. CSP 2 adds hash-source, nonce-source, and five new directives",
   "spec":"https://www.w3.org/TR/CSP2/",
-  "status":"cr",
+  "status":"rec",
   "links":[
     {
       "url":"https://www.html5rocks.com/en/tutorials/security/content-security-policy/",
@@ -38,7 +38,10 @@
       "15":"a #9",
       "16":"a #9",
       "17":"a #9",
-      "18":"a #9"
+      "18":"a #9",
+      "79":"y",
+      "80":"y",
+      "81":"y"
     },
     "firefox":{
       "2":"n",
@@ -105,7 +108,21 @@
       "61":"a #7",
       "62":"a #7",
       "63":"a #7",
-      "64":"a #7"
+      "64":"a #7",
+      "65":"a #7",
+      "66":"a #7",
+      "67":"a #7",
+      "68":"a #7",
+      "69":"a #7",
+      "70":"a #7",
+      "71":"a #7",
+      "72":"a #7",
+      "73":"a #7",
+      "74":"a #7",
+      "75":"a #7",
+      "76":"a #7",
+      "77":"a #7",
+      "78":"a #7"
     },
     "chrome":{
       "4":"n",
@@ -177,7 +194,18 @@
       "70":"y",
       "71":"y",
       "72":"y",
-      "73":"y"
+      "73":"y",
+      "74":"y",
+      "75":"y",
+      "76":"y",
+      "77":"y",
+      "78":"y",
+      "79":"y",
+      "80":"y",
+      "81":"y",
+      "83":"y",
+      "84":"y",
+      "85":"y"
     },
     "safari":{
       "3.1":"n",
@@ -197,6 +225,9 @@
       "11":"y",
       "11.1":"y",
       "12":"y",
+      "12.1":"y",
+      "13":"y",
+      "13.1":"y",
       "TP":"y"
     },
     "opera":{
@@ -252,7 +283,17 @@
       "53":"y",
       "54":"y",
       "55":"y",
-      "56":"y"
+      "56":"y",
+      "57":"y",
+      "58":"y",
+      "60":"y",
+      "62":"y",
+      "63":"y",
+      "64":"y",
+      "65":"y",
+      "66":"y",
+      "67":"y",
+      "68":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -269,7 +310,12 @@
       "10.3":"y",
       "11.0-11.2":"y",
       "11.3-11.4":"y",
-      "12":"y"
+      "12.0-12.1":"y",
+      "12.2-12.4":"y",
+      "13.0-13.1":"y",
+      "13.2":"y",
+      "13.3":"y",
+      "13.4":"y"
     },
     "op_mini":{
       "all":"n"
@@ -284,7 +330,7 @@
       "4.2-4.3":"n",
       "4.4":"n",
       "4.4.3-4.4.4":"n",
-      "67":"y"
+      "81":"y"
     },
     "bb":{
       "7":"n",
@@ -300,29 +346,36 @@
       "46":"y"
     },
     "and_chr":{
-      "69":"y"
+      "81":"y"
     },
     "and_ff":{
-      "62":"a #6"
+      "68":"a #6"
     },
     "ie_mob":{
       "10":"n",
       "11":"n"
     },
     "and_uc":{
-      "11.8":"n"
+      "12.12":"n"
     },
     "samsung":{
       "4":"y",
-      "5":"y",
-      "6.2":"y",
-      "7.2":"y"
+      "5.0-5.4":"y",
+      "6.2-6.4":"y",
+      "7.2-7.4":"y",
+      "8.2":"y",
+      "9.2":"y",
+      "10.1":"y",
+      "11.1":"y"
     },
     "and_qq":{
       "1.2":"y"
     },
     "baidu":{
       "7.12":"y"
+    },
+    "kaios":{
+      "2.5":"a #7"
     }
   },
   "notes":"",
@@ -336,8 +389,8 @@
     "7":"Firefox 45+ is missing the plugin-types directive.",
     "9":"Edge has broken nonce support as it ignores nonces on sourced scripts."
   },
-  "usage_perc_y":75.95,
-  "usage_perc_a":6.84,
+  "usage_perc_y":86.83,
+  "usage_perc_a":6.47,
   "ucprefix":false,
   "parent":"",
   "keywords":"csp,header,nonce,hash",
